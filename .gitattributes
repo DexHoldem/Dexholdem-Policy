@@ -1,0 +1,6 @@
+# Force LF line endings for shell scripts (critical for Linux servers)
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf

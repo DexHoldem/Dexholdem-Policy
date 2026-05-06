@@ -1,0 +1,20 @@
+{
+  "0":  {"name": "pick_up_left",   "text": "Pick up the card on the left side."},
+  "1":  {"name": "pick_up_right",  "text": "The card on the right should be lifted from the table."},
+
+  "2":  {"name": "push_5",         "text": "Push forward the chips worth 5."},
+  "3":  {"name": "push_10",        "text": "Move the 10-value chips to the front."},
+  "4":  {"name": "push_50",        "text": "For the chips of value 50, slide them ahead."},
+  "5":  {"name": "push_100",       "text": "Your target is the 100-point chips; send them outward."},
+
+  "6":  {"name": "pull_5",         "text": "Pull back the chips worth 5."},
+  "7":  {"name": "pull_10",        "text": "Bring the 10-value chips back toward yourself."},
+  "8":  {"name": "pull_50",        "text": "For the chips of value 50, draw them inward."},
+  "9":  {"name": "pull_100",       "text": "The 100-point chips are the target; retrieve them toward you."},
+
+  "10": {"name": "put_down_left",  "text": "Place the held card onto the left position."},
+  "11": {"name": "put_down_right", "text": "The held card should be returned to the right side."},
+
+  "12": {"name": "show_left",      "text": "Reveal the face of the left card."},
+  "13": {"name": "show_right",     "text": "Make the right card visible by turning it toward the viewer."}
+}

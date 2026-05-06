@@ -1,0 +1,39 @@
+[project]
+name = "dexas-policy"
+version = "0.1.0"
+description = "Robot imitation learning for Shadow Hand + UR arm Texas poker manipulation"
+requires-python = ">=3.10"
+dependencies = [
+    # Core
+    "torch",
+    "torchvision",
+    "numpy",
+    "tqdm",
+    # Diffusion & model hub
+    "diffusers",
+    "huggingface_hub",
+    "hf_xet",
+    "transformers>=4.30,<5.0",
+    "sentencepiece",
+    # Vision & visualization
+    "opencv-python",
+    "matplotlib",
+    # Data
+    "natsort",
+    # Logging
+    "wandb",
+    "tensorboard",
+    # Text encoders
+    "sentence-transformers",
+    # Deployment (ZeroMQ inference server)
+    "pyzmq",
+    "xformers>=0.0.35",
+]
+
+[tool.setuptools.packages.find]
+include = ["learning*", "data_processing*", "workflow*"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+]

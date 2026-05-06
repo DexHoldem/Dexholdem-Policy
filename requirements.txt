@@ -1,0 +1,29 @@
+# Core
+torch
+torchvision
+numpy
+tqdm
+
+# Diffusion & model hub
+diffusers==0.29.2
+huggingface_hub
+hf_xet
+transformers>=4.30,<5.0
+sentencepiece
+
+# Vision & visualization
+opencv-python
+matplotlib
+
+# Data
+natsort
+
+# Logging
+wandb
+tensorboard
+
+# Text encoders (optional, for sentence_transformers instruction encoder)
+sentence-transformers
+
+# Deployment (ZeroMQ inference server)
+pyzmq
